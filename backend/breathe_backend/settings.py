@@ -8,9 +8,15 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-b3jwjal91@v&-(7+s_11llq2tue=(c*t3l$6px5l@0ho!)9&me'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    "breathe-esg-ingestion-platform-2.onrender.com",
+    "localhost",
+    "127.0.0.1",
+]
+
+CORS_ALLOW_ALL_ORIGINS = True
 
 
 # Application definition
