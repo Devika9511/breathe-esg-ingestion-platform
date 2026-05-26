@@ -67,7 +67,10 @@ function UploadPage() {
 
       console.log(error);
 
-      alert("Upload Failed");
+      alert(
+        error.response?.data?.error ||
+        "Selected source does not match uploaded file."
+      );
     }
   };
 
