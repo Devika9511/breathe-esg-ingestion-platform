@@ -114,6 +114,3 @@ Render
 
 ---
 
-# Author
-
-Kanigiri Devika
